@@ -1,0 +1,36 @@
+.width{
+    width: 100%;
+}
+.flex{
+    display: flex ;
+    flex-wrap: wrap;
+}
+.min-width{
+    min-width: 500px;
+    margin-bottom: 50px;
+        padding: 0px;
+}
+.content-center{
+    display: flex;
+    justify-content: center;
+  
+}
+.margin{
+    margin: 10%
+}
+.borderless-table {
+    border-collapse: collapse;
+    /* Remove cell spacing and padding */
+    width: 100%;
+    /* Set the width to 100% or as needed */
+}
+
+.borderless-table th,
+.borderless-table td {
+    border: none;
+    /* Remove borders for table cells */
+    padding: 10px;
+    /* Add padding to cells if needed */
+    text-align: center;
+    /* Center-align cell content */
+}

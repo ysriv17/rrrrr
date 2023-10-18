@@ -26,7 +26,7 @@ const Sidebar = () => {
     return (
         <div className='sidebar'>
             <div className="sidebar__logo">
-                <img src={images.logo} alt="" />
+                <img src={images.logo} alt="" /><h2 className='sidebar__menu__item__text'>   Dashboard</h2>
                 <div className="sidebar-close" onClick={closeSidebar}>
                     <i className='bx bx-x'></i>
                 </div>

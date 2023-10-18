@@ -4,13 +4,15 @@
 .sidebar {
     @include flex(stretch, flex-start);
     flex-direction: column;
-    color: $txtColor;
+    color: $white;
     width: $sideBarWidth;
-    background-color: $mainBg;
+    background-color: rgb(11, 11, 67);
     height: 100vh;
     position: fixed;
     top: 0;
     z-index: 100;
+    justify-content: center;
+    justify-items: center;
 
     @include tablet {
         width: 100vw;
@@ -58,7 +60,7 @@
         &__item {
             @include flex(center, flex-start);
             position: relative;
-            margin-bottom: 2rem;
+            margin-bottom: 1rem;
             padding-left: 20%;
             transition: color 0.3s ease-in-out;
 
@@ -70,7 +72,7 @@
                 color: $mainColor;
 
                 @include tablet {
-                    color: $orange;
+                    color: $white;
                 }
             }
 
@@ -79,7 +81,7 @@
                 color: $mainColor;
 
                 @include tablet {
-                    color: $orange;
+                    color: rgb(12, 3, 130);
                 }
 
                 &::before {
@@ -103,11 +105,11 @@
                 --size: 40px;
                 width: var(--size);
                 height: var(--size);
-                margin-right: 3rem;
+                margin-right: .75rem;
                 @include flex(center, center);
 
                 @include tablet {
-                    margin-right: 1rem;
+                    margin-right: 0.5rem;
                 }
 
                 i {
@@ -118,6 +120,9 @@
             &:last-child {
                 margin-top: auto;
                 cursor: pointer;
+            }
+            &__text{
+                color: white;
             }
         }
     }

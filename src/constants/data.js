@@ -2,31 +2,31 @@ import images from "./images"
 
 const data = {
     user: {
-        name: 'Tuatta',
-        img: images.avt
+        name: 'Shahrukh',
+        
     },
     summary: [
         {
-            title: 'Sales',
-            subtitle: 'Total sales today',
+            title: 'Earning',
+            subtitle: '2% this month',
             value: '$1.000',
             percent: 70
         },
         {
             title: 'Orders',
-            subtitle: 'Total orders today',
+            subtitle: '2% this month',
             value: '3000',
             percent: 49
         },
         {
-            title: 'Revenue',
-            subtitle: 'Total revenue today',
+            title: 'Balance',
+            subtitle: '2% this month',
             value: '$678',
             percent: 38
         },
         {
-            title: 'Visits',
-            subtitle: 'Total visits today',
+            title: 'Total Sales',
+            subtitle: '2% this month',
             value: '2345',
             percent: 55
         }
